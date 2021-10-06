@@ -13,6 +13,8 @@
 		B91D7567270DFF0900027664 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91D7552270DFF0700027664 /* ContentView.swift */; };
 		B91D7568270DFF0900027664 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B91D7553270DFF0900027664 /* Assets.xcassets */; };
 		B91D7569270DFF0900027664 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B91D7553270DFF0900027664 /* Assets.xcassets */; };
+		B91D7573270E01BE00027664 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91D7572270E01BE00027664 /* MapView.swift */; };
+		B91D7574270E01BE00027664 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91D7572270E01BE00027664 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,7 @@
 		B91D7560270DFF0900027664 /* MyMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B91D7562270DFF0900027664 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B91D7563270DFF0900027664 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		B91D7572270E01BE00027664 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +62,7 @@
 			children = (
 				B91D7551270DFF0700027664 /* MyMapApp.swift */,
 				B91D7552270DFF0700027664 /* ContentView.swift */,
+				B91D7572270E01BE00027664 /* MapView.swift */,
 				B91D7553270DFF0900027664 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -188,6 +192,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B91D7566270DFF0900027664 /* ContentView.swift in Sources */,
+				B91D7573270E01BE00027664 /* MapView.swift in Sources */,
 				B91D7564270DFF0900027664 /* MyMapApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -197,6 +202,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B91D7567270DFF0900027664 /* ContentView.swift in Sources */,
+				B91D7574270E01BE00027664 /* MapView.swift in Sources */,
 				B91D7565270DFF0900027664 /* MyMapApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
